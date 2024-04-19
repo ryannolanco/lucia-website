@@ -1,0 +1,11 @@
+header {
+  margin: 0;
+  background-color: #F3F3FA;
+  padding: 10px 20px;
+  color: #1D1D20
+  ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
