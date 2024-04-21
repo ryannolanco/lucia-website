@@ -66,7 +66,10 @@ const Appointments = () => {
 				<div className="group-info">
 					<label htmlFor="size">Party Size</label>
 					<input
-						type="text"
+						type="number"
+						min={1}
+						max={10}
+						inputMode='numeric'
 						id="size"
 						name="groupSize"
 						value={formData.groupSize}

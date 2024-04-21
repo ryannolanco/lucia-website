@@ -9,3 +9,13 @@ header {
   align-items: center;
 }
 
+header ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2px; 
+  gap: 8px;
+  list-style-type: none;
+}
+
+

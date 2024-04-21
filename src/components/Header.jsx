@@ -4,12 +4,14 @@ const Header = () => {
 	return (
 		<header>
 			<h1>Bolivian Botox</h1>
-			<div style={{display: "flex", padding: "2px", gap: "2px"}}>
-				<nav>
+			<ul>
+				<li>
 					<NavLink to="/">Home</NavLink>
+				</li>
+				<li>
 					<NavLink to="/appointments">Appointment</NavLink>
-				</nav>
-			</div>
+				</li>
+			</ul>
 		</header>
 	);
 };
